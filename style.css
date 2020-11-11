@@ -1,0 +1,220 @@
+
+/* -------  General Styles ------- */
+body{
+	font-size: 20px;
+
+}
+  header {
+	background-color: #403933;
+	margin-bottom: 0;
+	font-family:raleway;
+  }
+  
+  .logo {
+	font-family: raleway, cursive;
+	font-size: 72px;
+	color: #7080db;
+	text-align: center;
+	letter-spacing: -3;
+	margin: 0;
+	padding: 20px 0 0 0;
+  }
+  
+  
+  /* ---  Navigation --- */
+  
+  header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  }
+  
+  header nav ul {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 0;
+	font-family:raleway;
+	list-style:none;
+  }
+  
+  header nav ul li {
+	list-style-type: none;
+	font-family: raleway;
+	text-decoration: none;
+  }
+  
+  header nav ul li a {
+	color: rgb(104, 136, 224);
+	text-decoration: none;
+	padding: 0 20px 0 0;
+	font-family: raleway, sans-serif;
+	
+  }
+  
+  header nav ul li a:hover {
+	color: #bb1616;
+  }
+  
+  @media all and (min-width: 700px) {
+	header {
+	  display: flex;
+	  justify-content: space-between;
+	}
+  
+	.logo {
+	  margin: 14px 0 14px 20px;
+	  padding-top: 15px;
+	  font-size: 80px;
+	}
+	
+	header nav {
+	  margin-top: 54px;
+	}
+
+  }
+  
+  /* ---  Primary Groups --- */
+  
+  hr{
+	position: relative; 
+            top: 0; 
+            border: none; 
+            height:10px; 
+            background: rgb(5, 46, 107); 
+            padding: 10px;
+  }
+  main {
+	padding: 20px 0;
+  }
+  
+  section {
+	margin-bottom: 100px;
+  }
+  
+  section.shaded-background {   
+	background-color: #a1d9eb;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin: 80px 0;
+	font-size: 20px
+  }
+  
+  footer {
+	background-color: #b88558;
+	margin-top: 40px;
+	margin-bottom: 0;
+  }
+  
+  /* ---  Typography --- */
+  
+  h1 {
+	font-size: 38px;
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	color: #3459a8;
+  }
+  
+  h2 {
+	font-size: 38px;
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	margin: 0 10px;
+	color:#3459a8
+  }
+  
+  h3 {
+	font-size: 28px;
+	font-family: raleway, sans-serif;
+	font-weight: 500;
+  }
+  
+  p {
+   font-family: raleway, sans-serif;
+   line-height: 1.5em;
+   margin-bottom: 0;
+   color:rgb(14, 14, 31)
+   font-size: 40px
+  }
+  
+  main a {
+	  font-weight: 100;
+	  text-decoration: none;	
+  }
+  
+  main  a:link { color: #48ec16; }
+  main  a:visited { color: #ee4a09; }
+  main  a:hover { color: #5f08eb; }
+  a:active { color: #faea08; }
+  
+  
+  a:hover {
+	  text-decoration: underline;	
+  }
+  
+  footer p {
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
+  
+  
+  main img {
+	width: 100%;
+  }
+  
+  img.image-enhanced {
+	border-radius: 8px;
+  }
+  
+  .group {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .item {
+	flex: 1;
+	margin: 10px;
+  }
+  
+  .item-secondary {
+	flex: 1;
+	font-family:raleway;
+
+  }
+  
+  
+  
+  /* ---  (Desktop) Groups & Items --- */
+  
+  @media all and (min-width: 800px) {
+	section {
+	  padding: 0 10%;
+	}
+	.group {
+	  flex-direction: row;
+	}
+  }
+  
+  
+  
+  /* Contact Form Design */
+  
+  form {
+	padding-right: 8px;
+	
+  }
+  
+  form label {
+	display: block;
+  }
+  
+  form input, 
+  form textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	color:black;
+  }
+  
+  form textarea {
+	height: 160px;
+  }
